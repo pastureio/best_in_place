@@ -23,6 +23,8 @@ class User < ActiveRecord::Base
 
   has_many :test_results
 
+  serialize :favorite_snacks
+
   def address_format
     "<b>addr => [#{address}]</b>".html_safe
   end

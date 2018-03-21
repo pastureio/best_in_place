@@ -23,6 +23,7 @@ ActiveRecord::Schema.define do
     t.string   "favorite_movie"
     t.string   "favorite_locale"
     t.integer  "zero_field"
+    t.string   "favorite_snacks"
   end
 
   create_table "test_results", :force => true do |t|
